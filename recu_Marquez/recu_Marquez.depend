@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1627601163 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\control.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"validaciones_marquez.h"
+	"bici.h"
+	"parser.h"
+
+1627601821 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\linkedlist.h
+
+1625266427 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\validaciones_marquez.h
+
+1627601801 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1627600813 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\validaciones_marquez.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones_marquez.h"
+
+1627601848 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\bici.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"bici.h"
+	"informes.h"
+
+1627601437 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\bici.h
+	"LinkedList.h"
+
+1627601210 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\getters.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"bici.h"
+
+1627601345 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\setters.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"control.h"
+	"validaciones_marquez.h"
+	"LinkedList.h"
+	"setters.h"
+	"bici.h"
+
+1627601479 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\control.h
+	"LinkedList.h"
+
+1627601920 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\setters.h
+	"bici.h"
+
+1627601273 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\informes.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"informes.h"
+
+1627601625 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\informes.h
+	"bici.h"
+
+1627600774 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"LinkedList.h"
+	"control.h"
+	"validaciones_marquez.h"
+	"informes.h"
+
+1627597583 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\parser.h
+	"LinkedList.h"
+
+1627601296 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\parser.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"LinkedList.h"
+	"bici.h"
+	"parser.h"
+
