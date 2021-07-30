@@ -1,11 +1,13 @@
 #ifndef VALIDACIONES_MARQUEZ_H_INCLUDED
 #define VALIDACIONES_MARQUEZ_H_INCLUDED
 
-/**
- * @fn unsigned int verifica(void)
- * @brief	Funcion usada para verificar el ingreso de caracteres.Chequea para que
+
+/** \brief Funcion usada para verificar el ingreso de caracteres.Chequea para que
  *			solo sean admitidas las letras s o n.
- * @return	0 si se ingresa n y 1 si se ingresa s.
+ *
+ * \param void
+ * \return unsigned int
+ *
  */
 unsigned int verifica(void);
 

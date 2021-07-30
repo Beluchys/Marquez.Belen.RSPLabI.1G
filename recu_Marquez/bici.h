@@ -68,6 +68,6 @@ int Object_sortTiempo(void *tiempo1, void *tiempo2);
  *
  */
 int Object_sortTipo(void *tipo1, void *tipo2);
-
+eBicicleta* Object_newParam(char *id, char *duenho, char *tipo,	char *tiempo);
 
 #endif // BICI_H_INCLUDED

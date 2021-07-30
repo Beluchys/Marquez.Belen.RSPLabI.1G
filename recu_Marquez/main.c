@@ -12,7 +12,6 @@ int main()
 {
     int option = 0;
     char path[128];
-    int loadOrWrite = 0;
     int type;
     LinkedList* lista = NULL;
     LinkedList* filtrada= ll_newLinkedList();
@@ -124,7 +123,7 @@ int main()
             system("cls");
             if(lista!=NULL)
             {
-                if(!ll_Megasort(lista, Object_sortTipo, Object_sortTiempo, 1))
+                if(!ll_superOrden(lista, Object_sortTipo, Object_sortTiempo, 1))
                 {
                     controller_ListObject(lista);
                     printf("\n   ---------------------------------------------\n"

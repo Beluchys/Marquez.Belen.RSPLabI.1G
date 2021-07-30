@@ -7,11 +7,11 @@
 	"bici.h"
 	"parser.h"
 
-1627601821 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\linkedlist.h
+1627604175 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\linkedlist.h
 
-1625266427 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\validaciones_marquez.h
+1627603713 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\validaciones_marquez.h
 
-1627601801 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\linkedlist.c
+1627603934 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\linkedlist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -24,14 +24,15 @@
 	<ctype.h>
 	"validaciones_marquez.h"
 
-1627601848 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\bici.c
+1627604281 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\bici.c
 	<stdlib.h>
 	<string.h>
 	<stdio.h>
+	"LinkedList.h"
 	"bici.h"
 	"informes.h"
 
-1627601437 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\bici.h
+1627604208 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\bici.h
 	"LinkedList.h"
 
 1627601210 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\getters.c
@@ -65,7 +66,7 @@
 1627601625 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\informes.h
 	"bici.h"
 
-1627602690 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\main.c
+1627604137 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\recu_segundoparcial\recu_marquez\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

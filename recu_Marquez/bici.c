@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "LinkedList.h"
 #include "bici.h"
 #include "informes.h"
 

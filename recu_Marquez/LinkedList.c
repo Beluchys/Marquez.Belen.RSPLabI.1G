@@ -528,10 +528,10 @@ int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
 }
 
 
-/** \brief
+/** \brief Modifica campos de un elemento de la lista this segun la funcion pFunc.
  *
  * \param void*
- * \return LinkedList* ll_map(LinkedList* this, void*
+ * \return LinkedList* ll_map(LinkedList* this, void*) Retorna una lista con campos modificados.
  *
  */
 LinkedList* ll_map(LinkedList* this, void* (*pFunc)(void*))
@@ -559,7 +559,7 @@ LinkedList* ll_map(LinkedList* this, void* (*pFunc)(void*))
 }
 
 
-/** \brief
+/** \brief Copia una lista en la que los elementos coincidan con elemento pasado por parametro.
  *
  * \param void*
  * \return LinkedList* ll_filter(LinkedList *this, int
@@ -597,10 +597,10 @@ LinkedList* ll_filter(LinkedList *this, int (*pFunc)(void*))
  *
  * \param void*
  * \param void*
- * \return int ll_Megasort(LinkedList *this, int (*pFunc)(void*, void*),int
+ * \return int ll_superOrden(LinkedList *this, int (*pFunc)(void*, void*),int
  *
  */
-int ll_Megasort(LinkedList *this, int (*pFunc)(void*, void*),int (*pFunc2)(void*, void*), int order)
+int ll_superOrden(LinkedList *this, int (*pFunc)(void*, void*),int (*pFunc2)(void*, void*), int order)
 {
     int returnAux = -1;
     void *element1;
