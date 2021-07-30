@@ -59,14 +59,14 @@ int main()
         case 4:
             system("cls");
             utn_getNumero(&type, "\n---------------------------------------------\n"
-                          "Seleccione un numero correspondiente al tipo.\n"
+                          "Seleccione el numero correspondiente al tipo.\n"
                           "---------------------------------------------\n"
                           "    1 - BMX.\n"
                           "    2 - MTB.\n"
                           "    3 - Paseo.\n"
                           "    4 - Playera.\n"
                           "    \nOpcion Elegida: ",
-                          "    Opcion incorrecta, seleccione entre [1-4].\n", 1, 4, 3);
+                          "    Opcion incorrecta, seleccione un numero entre 1 y 4.\n", 1, 4, 3);
             printf("\n\n");
             switch(type)
             {
