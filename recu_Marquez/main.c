@@ -23,18 +23,24 @@ int main()
         {
         case 1:
             lista = ll_newLinkedList();
-            utn_getNombre(path, 128, "Ingrese el nombre del archivo que desea abrir (sin la extension del archivo): \n"
-                          "    Prueba con: bicicletas: ", "    Nombre incorrecto, reintente.\n", 3);
+            system("cls");
+            utn_getNombre(path, 128, "\nIngrese el nombre del archivo que desea abrir (sin la extension del archivo)\n"
+                          "    Pon -bicicletas- por ejemplo: ", "    Nombre incorrecto, reintente.\n", 3);
             strMinuscula(path);
             strcat(path,".csv");
-            printf("\n\n El archivo a abrir sera: %s\n",path);
+            printf("\n\n El archivo a abrir sera: %s\n\n",path);
             controller_loadFromText(path, lista);
             system("pause");
             system("cls");
             break;
         case 2:
             system("cls");
-            controller_ListObject(lista);
+           if(controller_ListObject(lista))
+           {
+               printf("\n-------------------------------------------------\n"
+                           "            Lista impresa con exito.\n"
+                           "-------------------------------------------------\n");
+           }
             system("pause");
             system("cls");
             break;
@@ -43,7 +49,9 @@ int main()
             lista = ll_map(lista, tiempoSeteado);
             if(controller_ListObject(lista))
             {
-                printf("\n\nTiempos asignados con exito.\n\n");
+                printf("\n-------------------------------------------------\n"
+                           "          Tiempos asignados con exito.\n"
+                           "-------------------------------------------------\n");
             }
             system("pause");
             system("cls");
@@ -68,9 +76,9 @@ int main()
                 if(controller_ListObject(filtrada))
                 {
                     controller_saveAsText("BMX.csv", filtrada);
-                    printf("\n     ---------------------------------------------\n"
-                           "        Lista filtrada y guardada como BMX.csv\n"
-                           "     ---------------------------------------------\n");
+                    printf("\n   ---------------------------------------------\n"
+                           "      Lista filtrada y guardada como BMX.csv\n"
+                           "   ---------------------------------------------\n");
                 }
                 break;
             case 2:
@@ -79,9 +87,9 @@ int main()
                 if(controller_ListObject(filtrada))
                 {
                     controller_saveAsText("MTB.csv", filtrada);
-                    printf("\n     ---------------------------------------------\n"
-                           "        Lista filtrada y guardada como MTB.csv\n"
-                           "     ---------------------------------------------\n");
+                    printf("\n   ---------------------------------------------\n"
+                           "      Lista filtrada y guardada como MTB.csv\n"
+                           "   ---------------------------------------------\n");
                 }
                 break;
             case 3:
@@ -90,9 +98,9 @@ int main()
                 if(controller_ListObject(filtrada))
                 {
                     controller_saveAsText("PASEO.csv", filtrada);
-                    printf("\n     ---------------------------------------------\n"
-                           "        Lista filtrada y guardada como PASEO.csv\n"
-                           "     ---------------------------------------------\n");
+                    printf("\n   ---------------------------------------------\n"
+                           "      Lista filtrada y guardada como PASEO.csv\n"
+                           "   ---------------------------------------------\n");
                 }
                 break;
             case 4:
@@ -101,9 +109,9 @@ int main()
                 if(controller_ListObject(filtrada))
                 {
                     controller_saveAsText("PLAYERA.csv", filtrada);
-                    printf("\n     ---------------------------------------------\n"
-                           "        Lista filtrada y guardada como PLAYERA.csv\n"
-                           "     ---------------------------------------------\n");
+                    printf("\n   ---------------------------------------------\n"
+                           "      Lista filtrada y guardada como PLAYERA.csv\n"
+                           "   ---------------------------------------------\n");
                 }
                 break;
             default:
@@ -113,26 +121,28 @@ int main()
             system("cls");
             break;
         case 5:
+            system("cls");
             if(lista!=NULL)
             {
                 if(!ll_Megasort(lista, Object_sortTipo, Object_sortTiempo, 1))
                 {
                     controller_ListObject(lista);
-                    printf("\n     ---------------------------------------------\n"
-                           "        Lista Ordenada por tipo y Tiempo.\n"
-                           "     ---------------------------------------------\n");
+                    printf("\n   ---------------------------------------------\n"
+                           "      Lista Ordenada por tipo y Tiempo.\n"
+                           "   ---------------------------------------------\n");
                 }
             }
             system("pause");
             system("cls");
             break;
         case 6:
+            system("cls");
             if (lista!=NULL)
             {
                 controller_saveAsText("posiciones.csv", lista);
-                printf("\n\n     ---------------------------------------------\n"
-                       "        Guardado con exito como posiciones.csv\n"
-                       "     ---------------------------------------------\n");
+                printf("\n\n   ---------------------------------------------\n"
+                       "      Guardado con exito como posiciones.csv\n"
+                       "   ---------------------------------------------\n");
             }
             system("pause");
             system("cls");
